@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+#Custom ignores for security and data
+.env
+*.key
+*.pem
+keys/
+data/
