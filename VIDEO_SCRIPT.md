@@ -4,7 +4,7 @@
 
 | Time | Screen | Narration  |
 |---|---|---|
-| 0:00-0:25 **Problem** | Title slide: "CyberShield AI: <TEAM NAME>" | "Small organizations get phishing messages every day, but the tools that catch them often want you to upload emails and logs full of personal data. Names, phone numbers, IPs, account IDs. Protecting people shouldn't mean exposing them. That's our theme: innovation without exposure." |
+| 0:00-0:25 **Problem** | Title slide: "CyberShield AI: <TM_Matrix010-cybershield-AI>" | "Small organizations get phishing messages every day, but the tools that catch them often want you to upload emails and logs full of personal data. Names, phone numbers, IPs, account IDs. Protecting people shouldn't mean exposing them. That's our theme: innovation without exposure." |
 | 0:25-0:45 **Data** | README "Data and provenance" section | "We trained on a public labeled phishing-URL dataset, about 507,000 unique URLs, roughly 77% safe and 23% phishing. We tested our privacy layer on synthetic records with fictional identifiers. No real personal data was used anywhere." |
 | 0:45-1:00 **Solution** | Simple diagram: input, privacy layer, model, report | "CyberShield works in four steps. First it masks personal data. Then the model sees only the masked text. It returns a verdict with reasons. Finally it writes an incident report." |
 | 1:00-2:10 **Live demo** | Dashboard: choose "Phishing email (synthetic)" in the dropdown, press Analyze | "Here's a fictional phishing email with a name, phone number, email, IP and user ID. On the left is the raw input. On the right is what the model actually sees: every personal detail is masked, but the link is kept so we can still judge it. The verdict: phishing, with <score>% confidence. And here is why: the link imitates a login page, uses a suspicious domain pattern, and asks the user to verify. Below, the incident report: risk level, what was masked, and what to do next. Now a safe message..." *(choose "Safe message", Analyze, 10 seconds)* "...marked safe, personal data still masked." |
@@ -24,4 +24,4 @@
 - Our privacy test set is small (52 cases) and was written by us, so the 98% catch rate is optimistic.
 
 ## Fill-ins before recording
-`<TEAM NAME>` and `<score>` (read it live from the dashboard). The dataset and metric numbers above come from the LinuxONE server training run.
+`<TM_Matrix010-cybershield-AI>` and `<score>` (read it live from the dashboard). The dataset and metric numbers above come from the LinuxONE server training run.
