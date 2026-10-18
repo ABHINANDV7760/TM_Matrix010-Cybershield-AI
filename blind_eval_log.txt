@@ -1,0 +1,13 @@
+
+=== 2026-10-18 14:33 ===
+cases: 25 | sensitive items: 23 | missed: 7
+miss rate: 30.4%   (95% interval: 15.6% to 50.9%)
+over-masked items (harmless text altered): 1
+  MISSED   '98 7654 3210' in 'Her mobile (+91) 98 7654 3210 is switched off' -> 'Her mobile (+91) 98 7654 3210 is switched off'
+  MISSED   '98765.43210' in 'WhatsApp +91.98765.43210 for the invoice' -> 'WhatsApp +91.98765.43210 for the invoice'
+  MISSED   'ravi.k@okaxis' in 'Pay via UPI to ravi.k@okaxis tonight' -> 'Pay via UPI to ravi.k@okaxis tonight'
+  MISSED   'bcdef2345g' in 'PAN: bcdef2345g was attached' -> 'PAN: bcdef2345g was attached'
+  MISSED   'EMP-45213' in 'Emp code EMP-45213 logged in' -> 'Emp code EMP-45213 logged in'
+  MISSED   'Kavya Menon' in 'The invoice was approved by Kavya Menon on Friday' -> 'The invoice was approved by Kavya Menon on Friday'
+  MISSED   '14/03/1995' in 'Born on 14/03/1995, resident of Pune' -> 'Born on 14/03/1995, resident of Pune'
+  OVER-MASK 'v2.4.1.7' in 'Upgrade to v2.4.1.7 before 10:30' -> 'Upgrade to v[IP] before 10:30'
