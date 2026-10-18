@@ -67,4 +67,4 @@ Privacy layer: caught 57 of 58 sensitive items on our own 52-case synthetic test
 Network-log analyzer (e.g. CIC-IDS2017 sample), generative incident narratives with the Granite model.
 
 ## IBM Z / LinuxONE
-Runs on a LinuxONE Community Cloud instance (Ubuntu 24.04, s390x). See `docs/` for portal, terminal and Jupyter screenshots.
+Runs on a LinuxONE Community Cloud instance (s390x, 3 cores, 8 GB RAM; our lab container runs Red Hat Enterprise Linux 10.2).. See `docs/` for portal, terminal and Jupyter screenshots.
