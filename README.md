@@ -1,4 +1,4 @@
-# CyberShield AI - <TEAM NAME>
+# CyberShield AI - <TM_Matrix010-cybershield-AI>
 **IBM Z Datathon 2026 - "AI Secured: Innovation Without Exposure"**
 
 Privacy-preserving phishing detection. Personal data is masked **before** the model sees it, every verdict comes with reasons, and a ready-to-share incident report is generated.
