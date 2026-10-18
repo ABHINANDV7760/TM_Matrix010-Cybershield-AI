@@ -61,6 +61,7 @@ Privacy layer: caught 57 of 58 sensitive items on our own 52-case synthetic test
 - The dataset is a 2010s-era research set; new phishing styles may be missed.
 - Regex privacy layer: misses names without a greeting/honorific and obfuscated values.
 - Demo runs over plain http: fictional data only.
+- - Privacy layer is a prototype: it caught 98% of sensitive items on our standard test set (57 of 58), but on a harder set of 25 new cases (20 written adversarially with an AI assistant, 5 by a teammate) it missed 30.4% (7 of 23 items; 95% interval 15.6% to 50.9%). Misses: phone numbers with spaces or dots, UPI IDs, lowercase PAN, employee codes, dates of birth, and names without a greeting. It also wrongly masked a version number (v2.4.1.7) as an IP address.
 
 ## Future work
 Network-log analyzer (e.g. CIC-IDS2017 sample), generative incident narratives with the Granite model.
