@@ -1,0 +1,40 @@
+Email: alex@example.com, Phone: +91 9000000001, IP: 192.168.1.10
+Email: priya@example.org, Phone: +91 9000000002, IP: 192.168.1.11
+Email: sam@example.net, Phone: +91 9000000003, IP: 192.168.1.12
+Email: jordan@example.com, Phone: +91 9000000004, IP: 192.168.1.13
+Email: taylor@example.org, Phone: +91 9000000005, IP: 192.168.1.14
+Failed login for alex@example.com from 192.168.1.15
+Successful login for priya@example.org from 192.168.1.16
+Failed login for sam@example.net from 192.168.1.17
+User jordan@example.com attempted login from 192.168.1.18
+User taylor@example.org logged in from 192.168.1.19
+Contact alex@example.com regarding suspicious activity.
+Contact priya@example.org regarding account verification.
+Contact sam@example.net regarding a security alert.
+Contact jordan@example.com regarding an unusual login.
+Contact taylor@example.org regarding a password reset.
+Login failed for alex@example.com at 10:30
+Login failed for priya@example.org at 10:35
+Login successful for sam@example.net at 10:40
+Login failed for jordan@example.com at 10:45
+Login successful for taylor@example.org at 10:50
+Suspicious message sent to alex@example.com
+Suspicious message sent to priya@example.org
+Suspicious message sent to sam@example.net
+Suspicious message sent to jordan@example.com
+Suspicious message sent to taylor@example.org
+Server accessed from 192.168.1.20
+Server accessed from 192.168.1.21
+Server accessed from 192.168.1.22
+Server accessed from 192.168.1.23
+Server accessed from 192.168.1.24
+Failed authentication from 192.168.1.25
+Failed authentication from 192.168.1.26
+Failed authentication from 192.168.1.27
+Failed authentication from 192.168.1.28
+Failed authentication from 192.168.1.29
+Alert sent to alex@example.com from 192.168.1.30
+Alert sent to priya@example.org from 192.168.1.31
+Alert sent to sam@example.net from 192.168.1.32
+Alert sent to jordan@example.com from 192.168.1.33
+Alert sent to taylor@example.org from 192.168.1.34

@@ -1,0 +1,19 @@
+# secrets and keys
+*.pem
+*.key
+.env
+id_rsa*
+*.token
+# data and big files
+data/*
+!data/.gitkeep
+*.csv
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# model: commit only if small, otherwise regenerate with train_model.py
+# model.joblib
+
+# keep the shared synthetic test data
+!data/synthetic_data.txt
