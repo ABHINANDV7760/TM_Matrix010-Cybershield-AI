@@ -2,7 +2,7 @@
 
 **Before recording:** run `CyberShield_Dashboard.ipynb` in Jupyter on the LinuxONE server (the result footer must say "Model: trained model"). Hide the Jupyter password/token and the browser bookmarks. Use only the fictional sample buttons. Record once as a rehearsal and time it.
 
-| Time | Screen | Narration (speak naturally, don't read word for word) |
+| Time | Screen | Narration  |
 |---|---|---|
 | 0:00-0:25 **Problem** | Title slide: "CyberShield AI: <TEAM NAME>" | "Small organizations get phishing messages every day, but the tools that catch them often want you to upload emails and logs full of personal data. Names, phone numbers, IPs, account IDs. Protecting people shouldn't mean exposing them. That's our theme: innovation without exposure." |
 | 0:25-0:45 **Data** | README "Data and provenance" section | "We trained on a public labeled phishing-URL dataset, about 507,000 unique URLs, roughly 77% safe and 23% phishing. We tested our privacy layer on synthetic records with fictional identifiers. No real personal data was used anywhere." |
